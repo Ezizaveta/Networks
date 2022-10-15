@@ -2,8 +2,8 @@ import socket
 
 
 def reverse_string(str):
-    reversed_string = str[::-1]
-    return reversed_string
+    reversed = "\n".join([s[::-1] for s in str.split("\n")])
+    return reversed
 
 
 def server_process(host, port):

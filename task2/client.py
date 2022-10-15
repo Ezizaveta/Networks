@@ -14,6 +14,4 @@ def client_send(host, port, msg):
     sock.close()
 
 
-
-
-client_send('localhost', 10001, "Hello, world!\n Hola!")
+client_send('localhost', 10001, "Hello, world!\nHola!")
